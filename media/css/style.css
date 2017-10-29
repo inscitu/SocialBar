@@ -5,6 +5,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media (max-width:575px) {
+    .social-slide-sm {
+        visibility: hidden;
+    }
+}
 .social-slide { 
     position: fixed;
     left: 0%;
@@ -26,21 +31,22 @@
     transition: all 500ms ease;
 
 }
-.social-slide ul li .icon-facebook2 {background: #3b5998;}
-.social-slide ul li .icon-twitter3 {background: #00abf0;}
-.social-slide ul li .icon-instagram2 {background:  #fbad50;}
-.social-slide ul li .icon-google-plus2 {background: #d95232;}
-.social-slide ul li .icon-pinterest3 {background: #ae181f;}
-.social-slide ul li .icon-linkedin3 {background: #007bb6;}
-.social-slide ul li .icon-youtube3 {background: #FF0000;}
-.social-slide ul li .icon-mail5 {background: #666666;}
+.social-slide ul li .icon-facebook {background: #3b5998;}
+.social-slide ul li .icon-github {background: #bd2c00;}
+.social-slide ul li .icon-googleplus {background: #d95232;}
+.social-slide ul li .icon-instagram {background:  #cd486b;}
+.social-slide ul li .icon-linkedin {background: #007bb6;}
+.social-slide ul li .icon-pinterest {background: #ae181f;}
+.social-slide ul li .icon-twitter {background: #00abf0;}
+.social-slide ul li .icon-youtube {background: #FF0000;}
+.social-slide ul li .icon-mail {background: #666666;}
 .social-slide ul li a:hover {
     padding: 10px 30px;
     background: #000;
 }
 .hide {
     position: fixed;
-    top: 74%;
+    top: 26%;
     left: 0%;
     font-size: 2rem;
     text-align: center;
